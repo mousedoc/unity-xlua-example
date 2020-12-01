@@ -11,7 +11,7 @@ public class LoadLuaByFile : MonoBehaviour
         luaEnv = new XLua.LuaEnv();
 
         //luaEnv.DoString("print('hello world by execute string'");
-        luaEnv.DoString("require 'LuaScripts.byfile'");
+        luaEnv.DoString("require 'LuaScript.helloworld'");
     }
 
     private void Update()
