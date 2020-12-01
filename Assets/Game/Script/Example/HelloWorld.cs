@@ -11,7 +11,7 @@ public class HelloWorld : MonoBehaviour
         // By UnityEngine.Debug
         LuaManager.Env.DoString("CS.UnityEngine.Debug.Log('[Unity] hello world')");
 
-        // By Lua script file (Resources/LuaScript/HelloWorld.lua.txt)
+        // By Lua script file (Resources/LuaScript/helloworld.lua.txt)
         LuaManager.Env.DoString("require 'LuaScript.helloworld'");
 
         LuaManager.Release();
